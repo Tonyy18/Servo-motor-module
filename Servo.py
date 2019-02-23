@@ -8,7 +8,7 @@ class Init:
 
 	def __init__(self, pin):
 		
-		self.length = 40 #Pulse count / While loop count
+		self.length = 40 #Pulse count / While loop count.
 		self.pin = int(pin)
 		pi.setmode(pi.BOARD)
 		pi.setup(self.pin, pi.OUT)
